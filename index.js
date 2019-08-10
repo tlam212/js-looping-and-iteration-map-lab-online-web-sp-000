@@ -10,7 +10,7 @@ function nameToAttributes(arry) {
   return arry.map(function(driver) {
     const driverFirst = driver.split(' ')[0];
     const driverLast = driver.split(' ')[1];
-    return { firstName: driverFirst, lastName: driverLast };
+    return Object.assign{ firstName: driverFirst, lastName: driverLast };
   });
 
 }
